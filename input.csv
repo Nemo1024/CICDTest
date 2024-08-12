@@ -1,0 +1,11 @@
+id,name,country,salary,age,married
+1,John Doe,USA,50000,28,true
+2,Jane Smith,Brazil,80000,32,true
+3,Juan Perezz,Mexico,45000,26,false
+4,Alice Johnson,UK,52000,29,true
+5,Ming Li,China,55000,31,true
+6,Franz Muller,Germany,48000,27,false
+7,Olivia Brown,Australia,53000,30,false
+8,Luca Rossi,Italy,49000,26,true
+9,Ines Garcia,Spain,51000,33,true
+10,Hiro Tanaka,Japan,56000,34,true
