@@ -25,3 +25,7 @@ Note: Some values in the input.csv are different from what is in the api, so tha
 
 testSuite.sh is a small script that calls test.sh with each input value from 1 to 10
 
+A CI/CD solution could be to create a job called "test" that calls testSuite.sh script after all the necesary jobs have finished, like build, deploy ...
+
+As an example I have created a Github workflow it is in .github/workflows/main.yml, the trigger action to run the workflows is on:push it has 2 jobs: first is "build" which should build the application ( here it has only a echo "build") and the second job called "test" which will run "bash testSuite.sh", both of these jobs run on a ubuntu server
+
